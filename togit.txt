@@ -1,0 +1,11 @@
+git init
+git add .         # this adds everything to git 
+git commit -am "initial commit"
+git remote add original https://github.com/Yuva-raghav/push-to-git.git
+git remote -v
+
+
+
+git push origin master 
+
+
