@@ -1,12 +1,12 @@
-def twoSum(nums, target):
-    num_to_index = {} 
+def twoSum(a, b):
+    n = {} 
 
-    for i, num in enumerate(nums):
-        if target - num in num_to_index:
-            return [num_to_index[target - num], i]
-        num_to_index[num] = i
+    for i, num in enumerate(a):
+        if b - num in n:
+            return [n[b - num], i]
+        n[num] = i
 
     return [] 
-nums = [2, 7, 11, 15]
-target = 9
-print(twoSum(nums, target))  
+a = [2, 7, 11, 15, 3]
+b = 5
+print(twoSum(a,b))  
