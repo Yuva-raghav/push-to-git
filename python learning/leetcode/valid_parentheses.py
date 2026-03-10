@@ -1,17 +1,19 @@
-def isValid(s):
+def isValid(s: str) -> bool:
     stack = []
     mapping = {")": "(", "}": "{", "]": "["}
     
     for char in s:
-        if char in mapping:
-            top_element = stack.pop() if stack else '#'
+        if char in mapping:  # closing bracket
+            top_element = stack.pop() if stack else "#"
             if mapping[char] != top_element:
                 return False
-        else:
+        else:  # opening bracket
             stack.append(char)
-            
+    
     return not stack
 
-# Example usage:
-s = "()[]{}"
-print(isValid(s))
+
+# Example usage
+print(isValid("()"))       # Output: True
+print(isValid("()[]{}"))   # Output: True
+print(isValid("(]"))       # Output: False
