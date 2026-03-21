@@ -1,0 +1,13 @@
+def pascal_triangle(numRows):
+    triangle = []
+
+    for row in range(numRows):
+        new_row = [1] * (row + 1)
+        for j in range(1, row):
+            new_row[j] = triangle[row - 1][j - 1] + triangle[row - 1][j]
+        triangle.append(new_row)
+
+    return triangle
+
+# Example usage
+print(pascal_triangle(5))
