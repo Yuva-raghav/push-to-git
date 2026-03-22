@@ -16,7 +16,6 @@ def is_isomorphic(s: str, t: str) -> bool:
     return True
 
 
-# Example usage
 print(is_isomorphic("egg", "add"))   # True
 print(is_isomorphic("foo", "bar"))   # False
 print(is_isomorphic("paper", "title")) # True

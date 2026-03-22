@@ -11,7 +11,6 @@ def is_balanced(root):
 
     return height(root) != -1
 
-# Example tree
 tree = {
     "val": 1,
     "left": {"val": 2, "left": {"val": 3}, "right": {"val": 4}},

@@ -12,7 +12,6 @@ def min_depth(root):
 
     return 1 + min(left, right)
 
-# Example tree
 tree = {
     "val": 1,
     "left": {"val": 2, "left": None, "right": None},

@@ -7,5 +7,4 @@ def pascal_row(rowIndex):
 
     return row
 
-# Example usage
 print(pascal_row(3))  # Output: [1, 3, 3, 1]

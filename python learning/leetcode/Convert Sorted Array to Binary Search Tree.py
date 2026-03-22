@@ -11,7 +11,6 @@ def sorted_array_to_bst(nums):
 
     return root
 
-# Example usage:
 nums = [-10, -3, 0, 5, 9]
 tree = sorted_array_to_bst(nums)
 print(tree)

@@ -17,7 +17,6 @@ def roman_to_int(s):
     
     return total
 
-# Example usage
 print(roman_to_int("III"))     # 3
 print(roman_to_int("LVIII"))   # 58
 print(roman_to_int("MCMXCIV")) # 1994

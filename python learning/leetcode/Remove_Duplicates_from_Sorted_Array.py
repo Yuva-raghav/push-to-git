@@ -10,7 +10,6 @@ def remove_duplicates(nums):
     
     return i + 1
 
-# Example usage
 nums = [0,0,1,1,1,2,2,3,3,4]
 length = remove_duplicates(nums)
 print("Length:", length)

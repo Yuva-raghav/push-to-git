@@ -14,6 +14,5 @@ def is_happy(n: int) -> bool:
     return n == 1
 
 
-# Example usage
 print(is_happy(19))  # True
 print(is_happy(2))   # False

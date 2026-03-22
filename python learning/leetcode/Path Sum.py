@@ -2,14 +2,12 @@ def has_path_sum(root, targetSum):
     if root is None:
         return False
 
-    # Leaf node check
     if root.get("left") is None and root.get("right") is None:
         return targetSum == root["val"]
 
     return (has_path_sum(root.get("left"), targetSum - root["val"]) or
             has_path_sum(root.get("right"), targetSum - root["val"]))
 
-# Example tree
 tree = {
     "val": 5,
     "left": {

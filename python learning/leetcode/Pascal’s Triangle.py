@@ -9,5 +9,4 @@ def pascal_triangle(numRows):
 
     return triangle
 
-# Example usage
 print(pascal_triangle(5))

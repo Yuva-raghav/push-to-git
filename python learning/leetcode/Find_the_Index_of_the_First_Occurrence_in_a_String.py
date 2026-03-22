@@ -7,6 +7,5 @@ def str_str(haystack: str, needle: str) -> int:
             return i
     return -1
 
-# Example usage
 print(str_str("sadbutsad", "sad"))  # Output: 0
 print(str_str("leetcode", "leeto")) # Output: -1

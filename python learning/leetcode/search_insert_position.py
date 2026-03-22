@@ -13,7 +13,6 @@ def searchInsert(nums, target):
     return left  # position where target should be inserted
 
 
-# Example usage:
 print(searchInsert([1,3,5,6], 5))  # Output: 2
 print(searchInsert([1,3,5,6], 2))  # Output: 1
 print(searchInsert([1,3,5,6], 7))  # Output: 4
